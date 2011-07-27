@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Taty Grassini &nbsp; &frasl; &nbsp; Portfolio</title>
-	  	<style media="screen">
+	<html>
+		<head>
+			<meta charset=utf-8 />
+			<title>taty grassini / portfolio</title>
+			
+			<style media="screen">
 				#featured{width:940px;height:450px;background:#000 url('https://github.com/zurb/orbit/raw/master/orbit/loading.gif') no-repeat center center;overflow:hidden;}
 				#featured>img,
 				#featured>div,
@@ -43,9 +45,7 @@
 				.orbit-bullets li.active{color:#222;background-position:-8px 0;}
 				.orbit-bullets li.has-thumb{background:none;width:100px;height:75px;}
 				.orbit-bullets li.active.has-thumb{background-position:0 0;border-top:2px solid #000;}
-				.container{position:absolute;top:50%;left:50%;margin:-300px 0 0 -470px;}
-				.content h1{font-size:40px;text-transform:uppercase;font-weight:bold;text-align:center;margin-top:180px;color:#222;line-height:50px;}
-				.content h3{text-align:center;font-size:22px;color:#222;}
+
 				/* --------------------------------------------------
 				Global Reset & Standards
 				-------------------------------------------------- */
@@ -57,53 +57,52 @@
 				h4{font-weight:bold;color:#222;font-size:15px;}
 				a{color:#00baff;text-decoration:none;font-weight:bold;font-size:12px;}
 				a:hover{text-decoration:underline;}
-				/* --------------------------------------------------
-				Customized stuff
-				-------------------------------------------------- */
-				body{background:#fff url('http://i1208.photobucket.com/albums/cc369/sl1dr/noise.png') 0 0 repeat;}
-				em{font-style:italic;}
-				strong{font-weight:bold;}
-				h1 {font-family: 'Rock Salt', cursive;text-shadow: 0 1px 1px hsla(0,0%,100%,.75);font-size: 3em;margin-bottom: 50px;color: indianRed;}
+				body {background: #F0EFD1;font: 19px/1.5em helvetica, arial, sans-serif;color: #191919;}
+				div.container {position: relative;width: 939px;margin: 50px auto;}
+				h1 {font-family: 'Terminal Dosis Light', sans-serif;line-height: 140%;text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;text-shadow: 0 1px 1px hsla(0,0%,100%,.75);font-size: 3em;margin-bottom: 50px;color: #bf3211;}
 				a, a:hover {text-decoration:none;border-bottom: 1px solid grey;color:white;}
-	  	</style>
-		<link href='http://fonts.googleapis.com/css?family=Rock+Salt&v2' rel='stylesheet' type='text/css'>
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src="https://raw.github.com/zurb/orbit/master/jquery.orbit-1.2.3.min.js"></script>	
-
+				strong{font-weight:bold;}
+				.orbit-wrapper .orbit-caption {font-family: helvetica, arial, sans-serif;}
+			</style>
+			<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis+Light&v2' rel='stylesheet' type='text/css'>
+			<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+			<script src="https://raw.github.com/zurb/orbit/master/jquery.orbit-1.2.3.min.js"></script>
 			<!--[if IE]>
 			     <style type="text/css">
 			         .timer { display: none !important; }
 			         div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
 			    </style>
 			<![endif]-->
-		
-		<!-- Run the plugin -->
-		<script>
-			$(window).load(function() {
-				$('#featured').orbit();
-			});
-		</script>
-		
-	</head>
-	<body>
-	<div class="container">
-		<h1>Taty Grassini / portfolio</h1>
-		<div id="featured"> 
-			<img src="https://dl-web.dropbox.com/get/tatygrassini.github.com/dummy-images/minimalistic.png?w=e3cefeb3" data-caption="#minimalistic" />
-			<img src="https://dl-web.dropbox.com/get/tatygrassini.github.com/dummy-images/rocking-layout.png?w=7b65e756" data-caption="#rocking-layout" />
-			<img src="https://dl-web.dropbox.com/get/tatygrassini.github.com/dummy-images/brillante.png?w=a1136eae" data-caption="#brillante" />
-			<img src="https://dl-web.dropbox.com/get/tatygrassini.github.com/dummy-images/polo360.png?w=7cbf5fb3" data-caption="#polo360" />
-		</div>
-		
-		<!-- Captions for Orbit -->
-		
-		<span class="orbit-caption" id="minimalistic"><strong>Minimalistic:</strong> visit the <a href="http://tatygrassini.github.com/Minimalistic_Layout/" target="_blank">Live Demo</a> or take look at the <a href="https://github.com/tatygrassini/Minimalistic_Layout" target="_blank">Code</a>!</span>
-		
-		<span class="orbit-caption" id="rocking-layout"><strong>Rocking:</strong> visit the <a href="http://tatygrassini.github.com/Rocking_Layout/" target="_blank">Live Demo</a> or take look at the <a href="https://github.com/tatygrassini/Rocking_Layout" target="_blank">Code</a>!</span>
-		<span class="orbit-caption" id="brillante"><strong>Brillante:</strong> visit the <a href="http://tatygrassini.github.com/Brilliante_Layout/" target="_blank">Live Demo</a> or take look at the <a href="https://github.com/tatygrassini/Brilliante_Layout" target="_blank">Code</a>!</span>
-		
-		<span class="orbit-caption" id="polo360"><strong>Polo360:</strong> Oops! Still working on <a href="https://github.com/tatygrassini/Polo360_Layout" target="_blank">this one</a>!</span>
-		
-		</div>	
-	</body>
-</html>
+
+			
+			<script type="text/javascript">
+			     $(window).load(function() {
+			         $('#featured').orbit();
+			     });
+			</script>
+		</head>
+		<body>
+
+			<div class="container">
+			
+				<h1>taty grassini / portfolio</h1>
+				
+						<div id="featured">
+							<img src="https://dl-web.dropbox.com/get/tatygrassini.github.com/dummy-images/minimalistic.png?w=e3cefeb3" data-caption="#minimalistic" />
+							<img src="https://dl-web.dropbox.com/get/tatygrassini.github.com/dummy-images/rocking-layout.png?w=7b65e756" data-caption="#rocking-layout" />
+							<img src="https://dl-web.dropbox.com/get/tatygrassini.github.com/dummy-images/brillante.png?w=a1136eae" data-caption="#brillante" />
+							<img src="https://dl-web.dropbox.com/get/tatygrassini.github.com/dummy-images/polo360.png?w=7cbf5fb3" data-caption="#polo360" />
+						</div>
+						
+						<!-- Captions -->
+
+						<span class="orbit-caption" id="minimalistic"><strong>Minimalistic:</strong> visit the <a href="http://tatygrassini.github.com/Minimalistic_Layout/" target="_blank">Live Demo</a> or take look at the <a href="https://github.com/tatygrassini/Minimalistic_Layout" target="_blank">Code</a>!</span>
+
+						<span class="orbit-caption" id="rocking-layout"><strong>Rocking:</strong> visit the <a href="http://tatygrassini.github.com/Rocking_Layout/" target="_blank">Live Demo</a> or take look at the <a href="https://github.com/tatygrassini/Rocking_Layout" target="_blank">Code</a>!</span>
+						<span class="orbit-caption" id="brillante"><strong>Brillante:</strong> visit the <a href="http://tatygrassini.github.com/Brilliante_Layout/" target="_blank">Live Demo</a> or take look at the <a href="https://github.com/tatygrassini/Brilliante_Layout" target="_blank">Code</a>!</span>
+
+						<span class="orbit-caption" id="polo360"><strong>Polo360:</strong> Oops! Still working on <a href="https://github.com/tatygrassini/Polo360_Layout" target="_blank">this one</a>!</span>
+			</div><!-- .container -->
+			
+		</body>
+	</html>
