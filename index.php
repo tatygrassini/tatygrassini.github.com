@@ -107,6 +107,21 @@
 							<span class="orbit-caption" id="polo360"><strong>Polo360:</strong> Oops! Still working on <a href="https://github.com/tatygrassini/Polo360_Layout" target="_blank">this one</a>!</span>
 						</div><!-- #featured -->
 						
+						<div class="blog">
+							<?php
+							$request_url = “http://atomikus.tumblr.com/api/read”;
+							$xml = simplexml_load_file($request_url);
+							$title = $xml->posts->post->{‘regular-title’};
+							$post = $xml->posts->post->{‘regular-body’};
+							$link = $xml->posts->post[‘url’];
+							$small_post = substr($post,0,320);
+							echo ‘<h1>’.$title.’</h1>’;
+							echo ‘<p>’.$small_post.’</p>’;
+							echo “…”;
+							echo “</br><a target=frame2 href=’”.$link.”’>Read More</a>”; 
+							?>
+						</div><!-- .blog -->
+						
 			</div><!-- .container -->
 			
 		</body>
