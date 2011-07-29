@@ -42,7 +42,7 @@
 				/* BULLET NAV
 				================================================== */
 				.orbit-bullets{position:absolute;z-index:1000;list-style:none;bottom:-40px;left:50%;margin-left:-50px;padding:0;}
-				.orbit-bullets li{float:left;margin-left:5px;cursor:pointer;color:#999;text-indent:-9999px;background:url(https://github.com/zurb/orbit/raw/master/orbit/bullets.jpg) no-repeat 4px 0;width:13px;height:12px;overflow:hidden;}
+				.orbit-bullets li{float:left;margin-left:5px;cursor:pointer;color:#999;text-indent:-9999px;background:url(images/bullets.jpg) no-repeat 4px 0;width:13px;height:12px;overflow:hidden;}
 				.orbit-bullets li.active{color:#222;background-position:-8px 0;}
 				.orbit-bullets li.has-thumb{background:none;width:100px;height:75px;}
 				.orbit-bullets li.active.has-thumb{background-position:0 0;border-top:2px solid #000;}
@@ -78,7 +78,9 @@
 			
 			<script type="text/javascript">
 			     $(window).load(function() {
-			         $('#featured').orbit();
+			         $('#featured').orbit({
+									bullets: true,
+								});
 			     });
 			</script>
 		</head>
@@ -89,10 +91,10 @@
 				<h1>tatygrassini / portfolio</h1>
 				
 						<div id="featured">
-							<img src="dummy-images/minimalistic.png" data-caption="#minimalistic" />
-							<img src="dummy-images/rocking-layout.png" data-caption="#rocking-layout" />
-							<img src="dummy-images/brillante.png" data-caption="#brillante" />
-							<img src="dummy-images/polo360.png" data-caption="#polo360" />
+							<img src="screenshots/minimalistic.png" data-caption="#minimalistic" />
+							<img src="screenshots/rocking-layout.png" data-caption="#rocking-layout" />
+							<img src="screenshots/brillante.png" data-caption="#brillante" />
+							<img src="screenshots/polo360.png" data-caption="#polo360" />
 						
 							<!-- Captions -->
 
