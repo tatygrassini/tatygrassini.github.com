@@ -17,9 +17,6 @@
 				div.orbit>img{position:absolute;top:0;left:0;display:none;}
 				div.orbit>a{border:none;position:absolute;top:0;left:0;line-height:0;display:none;}
 				.orbit>div{position:absolute;top:0;left:0;width:100%;height:100%;}
-				/* Note:If your slider only uses content or anchors,you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
-				/* TIMER
-				================================================== */
 				div.timer{width:40px;height:40px;overflow:hidden;position:absolute;top:10px;right:10px;opacity:.6;cursor:pointer;z-index:1001;}
 				span.rotator{display:block;width:40px;height:40px;position:absolute;top:0;left:-20px;background:url(https://github.com/zurb/orbit/raw/master/orbit/rotator-black.png) no-repeat;z-index:3;}
 				span.mask{display:block;width:20px;height:40px;position:absolute;top:0;right:0;z-index:2;overflow:hidden;}
@@ -47,9 +44,6 @@
 				.orbit-bullets li.has-thumb{background:none;width:100px;height:75px;}
 				.orbit-bullets li.active.has-thumb{background-position:0 0;border-top:2px solid #000;}
 
-				/* --------------------------------------------------
-				Global Reset & Standards
-				-------------------------------------------------- */
 				html,body{margin:0;padding:0;}
 				h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,img,small,strike,strong,em,sub,sup,tt,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td,section{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;text-align:left;}
 				table{border-collapse:collapse;border-spacing:0;}
@@ -64,6 +58,10 @@
 				a, a:hover {text-decoration:none;border-bottom: 1px solid grey;color:white;}
 				strong{font-weight:bold;}
 				.orbit-wrapper .orbit-caption {font-family: helvetica, arial, sans-serif;}
+				
+				#featured{position:static/relative/absolute/fixed;}
+					.orbit-wrapper:before,.orbit-wrapper:after{z-index:-1;position:absolute;content:"";bottom:15px;left:10px;width:50%;top:80%;max-width:470px;background:rgba(0,0,0,0.6);-webkit-box-shadow:0 15px 10px rgba(0,0,0,0.6);-moz-box-shadow:0 15px 10px rgba(0,0,0,0.6);box-shadow:0 15px 10px rgba(0,0,0,0.6);-webkit-transform:rotate(-3deg);-moz-transform:rotate(-3deg);-o-transform:rotate(-3deg);-ms-transform:rotate(-3deg);transform:rotate(-3deg);}
+			.orbit-wrapper:after{-webkit-transform:rotate(3deg);-moz-transform:rotate(3deg);-o-transform:rotate(3deg);-ms-transform:rotate(3deg);transform:rotate(3deg);right:10px;left:auto;}
 			</style>
 			<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis+Light&v2' rel='stylesheet' type='text/css'>
 			<script>
@@ -94,8 +92,6 @@
 			         div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
 			    </style>
 			<![endif]-->
-
-			
 			<script type="text/javascript">
 			     $(window).load(function() {
 			         $('#featured').orbit({
@@ -105,29 +101,19 @@
 			</script>
 		</head>
 		<body>
-
 			<div class="container">
-			
 				<h1>tatygrassini / portfolio</h1>
-				
 						<div id="featured">
 							<img src="screenshots/minimalistic.png" data-caption="#minimalistic" />
 							<img src="screenshots/rocking-layout.png" data-caption="#rocking-layout" />
 							<img src="screenshots/brillante.png" data-caption="#brillante" />
-							<img src="screenshots/polo360.png" data-caption="#polo360" />
-						
+							<img src="screenshots/polo360.png" data-caption="#polo360" />			
 							<!-- Captions -->
-
 							<span class="orbit-caption" id="minimalistic"><strong>Minimalistic:</strong> visit the <a href="http://tatygrassini.github.com/Minimalistic_Layout/" target="_blank">Live Demo</a> or take look at the <a href="https://github.com/tatygrassini/Minimalistic_Layout" target="_blank">Code</a>!</span>
-
-							<span class="orbit-caption" id="rocking-layout"><strong>Rocking:</strong> visit the <a href="http://tatygrassini.github.com/Rocking_Layout/" target="_blank">Live Demo</a> or take look at the <a href="https://github.com/tatygrassini/Rocking_Layout" target="_blank">Code</a>!</span>
-							
+							<span class="orbit-caption" id="rocking-layout"><strong>Rocking:</strong> visit the <a href="http://tatygrassini.github.com/Rocking_Layout/" target="_blank">Live Demo</a> or take look at the <a href="https://github.com/tatygrassini/Rocking_Layout" target="_blank">Code</a>!</span>					
 							<span class="orbit-caption" id="brillante"><strong>Brillante:</strong> visit the <a href="http://tatygrassini.github.com/Brilliante_Layout/" target="_blank">Live Demo</a> or take look at the <a href="https://github.com/tatygrassini/Brilliante_Layout" target="_blank">Code</a>!</span>
-
 							<span class="orbit-caption" id="polo360"><strong>Polo360:</strong> Oops! Still working on <a href="https://github.com/tatygrassini/Polo360_Layout" target="_blank">this one</a>!</span>
 						</div><!-- #featured -->
-
 			</div><!-- .container -->
-			
 		</body>
 	</html>
