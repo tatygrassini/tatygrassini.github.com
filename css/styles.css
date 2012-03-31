@@ -1,0 +1,72 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		background: #EBF2D0 url(../img/noise.png);
+		color: #3B3B3B;
+		font-family: 'Signika', sans-serif;
+	}
+	a {color: #3B3B3B;}
+	a.button {background: #3B3B3B;color: #EBF2D0;font-size: .8em;border-radius: .1875em;text-decoration:none;padding:.1875em .3125em;display:inline-block;margin-top:1.5em;}
+	
+	h1,h2,h3 {
+	}
+	
+	/*Fixed top bar*/
+	
+	.topbar {
+		background: rgba(59, 59, 59, .95);
+		color: #EBF2D0;
+		height: 3em;
+		line-height: 3em;
+		padding: auto 0;
+		position: fixed;
+		width:100%;
+		z-index:9;
+	}
+		.avatar {
+			border-radius: 50%;
+			float:left;
+			height: 85%;
+			margin: .3em .7em auto 0;
+		}
+		
+	/*Screenshots*/
+	
+	.projects {
+		padding-top:4em;
+	}
+		.project {
+			margin-bottom:4em;
+		}
+			figure {
+				margin:0;
+			}
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
