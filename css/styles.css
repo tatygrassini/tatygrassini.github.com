@@ -28,6 +28,7 @@
 		top: 0;
 	}
 		.avatar {
+			-webkit-border-radius: 50%;
 			border-radius: 50%;
 			float:left;
 			height: 85%;
