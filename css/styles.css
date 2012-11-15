@@ -7,8 +7,8 @@
 		color: #3B3B3B;
 		font-family: 'Signika', sans-serif;
 	}
-	a, a:link {color: #3B3B3B;}
-	a:hover {color: #7C7979;-webkit-transition: all 0.15s ease-in-out;-moz-transition: all 0.15s ease-in-out;-o-transition: all 0.15s ease-in-out;transition: all 0.15s ease-in-out;}
+	a, a:link {color: #3B3B3B;-webkit-transition: all 0.15s ease-in-out;-moz-transition: all 0.15s ease-in-out;-o-transition: all 0.15s ease-in-out;transition: all 0.15s ease-in-out;}
+	a:hover {color: #7C7979;}
 	a.button {background: #3B3B3B;color: #F3F3F3;padding:1em;font-size: .8em;-webkit-border-radius: .1875em;border-radius: .1875em;text-decoration:none;display:inline-block;margin-top:1.5em;}
 	a.button:hover {background: #7C7979;}
 	a.button.alt {background: #C56A6A;}
