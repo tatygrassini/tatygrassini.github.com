@@ -3,12 +3,18 @@
 /* ============================== */
 
 	body {
-		background: #EBF2D0 url(../img/noise.png);
+		background: #F3F3F3 url(../img/noise.png);
 		color: #3B3B3B;
 		font-family: 'Signika', sans-serif;
 	}
-	a {color: #3B3B3B;}
-	a.button {background: #3B3B3B;color: #EBF2D0;font-size: .8em;border-radius: .1875em;text-decoration:none;padding:.1875em .3125em;display:inline-block;margin-top:1.5em;}
+	a, a:link {color: #3B3B3B;}
+	a:hover {color: #7C7979;-webkit-transition: all 0.15s ease-in-out;-moz-transition: all 0.15s ease-in-out;-o-transition: all 0.15s ease-in-out;transition: all 0.15s ease-in-out;}
+	a.button {background: #3B3B3B;color: #F3F3F3;padding:1em;font-size: .8em;border-radius: .1875em;text-decoration:none;display:inline-block;margin-top:1.5em;}
+	a.button:hover {background: #7C7979;}
+	a.button.alt {background: #C56A6A;}
+	a.button.alt:hover {background:	#B64949;}
+
+
 	
 	h1,h2,h3 {
 	}
@@ -17,7 +23,7 @@
 	
 	.topbar {
 		background: rgba(59, 59, 59, .95);
-		color: #EBF2D0;
+		color: #F3F3F3;
 		height: 3em;
 		line-height: 3em;
 		padding: auto 0;
@@ -31,17 +37,19 @@
 			-webkit-border-radius: 50%;
 			border-radius: 50%;
 			float:left;
-			height: 85%;
+			height: 75%;
 			margin: .3em .7em auto 0;
+			-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
+			box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
 		}
 		
 	/*Screenshots*/
 	
 	.projects {
-		padding-top:4em;
+		padding-top:1em;
 	}
 		.project {
-			margin-bottom:4em;
+			padding:4em 0;
 		}
 			figure {
 				margin:0;
@@ -72,28 +80,40 @@
 	}
 	
 
-/* ============================= */
-/* ! Layout for mobile version   */
-/* ============================= */
-
-@media handheld, only screen and (max-width: 767px) {
-
+@media only screen and (max-width: 1023px) {
 	body {
-		
+	font-size: 1.1em;
+	line-height: 1.75em;
+	}
+	
+	.topbar h1 {
+		font-size: 150%;
 	}
 
-}
+	}
 
+@media handheld, only screen and (max-width: 767px) {
+	body {
+	font-size: 1.2em;
+	line-height: 2em;
+	text-align: center;
+	}
 
-/* ========================================== */
-/* ! Provide higher res assets for iPhone 4   */
-/* ========================================== */
+	.topbar h1 {
+		font-size: 110%;
+		text-align: left;
+	}
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+	.projects {
+		padding-top: 2em;
+	}
 
-/*	.logo {
-		background: url(logo2x.jpg) no-repeat;
-		background-size: 212px 303px;
-	}*/
+	.project {
+		padding: 2em 0;
+	}
+
+	figure {
+		margin-bottom: 1em;
+	}
 
 }
