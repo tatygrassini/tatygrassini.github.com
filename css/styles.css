@@ -9,7 +9,7 @@
 	}
 	a, a:link {color: #3B3B3B;}
 	a:hover {color: #7C7979;-webkit-transition: all 0.15s ease-in-out;-moz-transition: all 0.15s ease-in-out;-o-transition: all 0.15s ease-in-out;transition: all 0.15s ease-in-out;}
-	a.button {background: #3B3B3B;color: #F3F3F3;padding:1em;font-size: .8em;border-radius: .1875em;text-decoration:none;display:inline-block;margin-top:1.5em;}
+	a.button {background: #3B3B3B;color: #F3F3F3;padding:1em;font-size: .8em;-webkit-border-radius: .1875em;border-radius: .1875em;text-decoration:none;display:inline-block;margin-top:1.5em;}
 	a.button:hover {background: #7C7979;}
 	a.button.alt {background: #C56A6A;}
 	a.button.alt:hover {background:	#B64949;}
@@ -36,9 +36,9 @@
 		.avatar {
 			-webkit-border-radius: 50%;
 			border-radius: 50%;
-			float:left;
-			height: 75%;
-			margin: .3em .7em auto 0;
+			float: left;
+			height: 35px;
+			margin: .3em .7em auto 3px;
 			-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
 			box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
 		}
