@@ -22,6 +22,7 @@
 	/*Fixed top bar*/
 	
 	.topbar {
+		background: #434343;
 		background: rgba(59, 59, 59, .95);
 		color: #F3F3F3;
 		height: 3em;
