@@ -63,6 +63,9 @@ header a:hover {
   font-size: 14px;
   color: #aaa;
 }
+h1 small {
+  display: block;
+}
 .show {
   margin: 0 -15px 20px;
 }
@@ -153,7 +156,7 @@ aside .thumb {
 @media (min-width: 481px) {
 
   h1 small {
-    display: block;
+    display: inline;
   }
   /* Tweak listings */
   .listing .span6 {
