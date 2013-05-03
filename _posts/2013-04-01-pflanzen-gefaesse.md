@@ -5,6 +5,6 @@ category: "PSD to WordPress"
 tags: [psd2html, psd2wp, responsive]
 ---
 
-<a class="thumbnail" href="http://labs.bittorrent.com" target="_blank">
+<a class="thumbnail" href="http://www.pflanzenundgefaesse.ch/" target="_blank">
   <img src="/screenshots/pflanzen-gefasse.jpg" alt="{{ post.title }}">
 </a>
