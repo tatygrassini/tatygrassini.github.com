@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div class="row show">
-  <div class="col-span-8">
+  <div class="col col-lg-8">
     <h1>{{ page.title }} <small>{{ page.category }}</small></h1>
     {{ page.content }}
   </div>
-  <aside class="col-span-3 col-offset-1 related" role="complementary">
-    <h3>More projects</h3>
-      {% for post in site.related_posts limit:3 %}
-        <div class="thumb">
+  <aside class="related col col-lg-4" role="complementary">
+    <h3 class="col col-lg-12">More projects:</h3>
+      {% for post in site.related_posts limit:4 %}
+        <div class="thumb col col-lg-12 col-sm-6">
           {{ post.content }}
           <h4 class="thumb-title">
             <a href="{{ post.url }}">{{ post.title }}</a>
