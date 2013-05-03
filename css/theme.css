@@ -84,6 +84,7 @@ h1 small {
 }
 aside .thumb {
   margin-bottom: 20px;
+  overflow: hidden;
 }
 .pagination {
   font-weight: 500;
