@@ -152,8 +152,11 @@ aside .thumb {
 
 @media (min-width: 481px) {
 
+  h1 small {
+    display: block;
+  }
   /* Tweak listings */
-  .listing .span4 {
+  .listing .span6 {
     max-width: 410px;
     margin-left: auto;
     margin-right: auto;
