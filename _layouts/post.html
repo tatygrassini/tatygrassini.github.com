@@ -3,23 +3,24 @@ layout: default
 ---
 
 <div class="row show">
-  <div class="col col-lg-8">
-    <h1>{{ page.title }} <small>{{ page.category }}</small></h1>
-    {{ page.content }}
-  </div>
-  <aside class="related col col-lg-4" role="complementary">
-    <div class="row">
-    <h3 class="col col-lg-12">More projects:</h3>
-      {% for post in site.related_posts limit:4 %}
-        <div class="thumb col col-lg-12 col-sm-6">
-          {{ post.content }}
-          <h4 class="thumb-title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </h4>
-          <span class="thumb-category">{{ post.category }}</span>
-        </div>
-      {% endfor %}
-    </div>
-  </aside>
+
+<div class="col col-lg-8">
+<h1>{{ page.title }} <small>{{ page.category }}</small></h1>
+{{ page.content }}
+</div>
+
+<aside class="related col col-lg-4" role="complementary">
+<div class="row">
+<h3 class="col col-lg-12">More projects:</h3>
+{% for post in site.related_posts limit:4 %}
+<div class="thumb col col-lg-12 col-sm-6">
+{{ post.content }}
+<h4 class="thumb-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+<span class="thumb-category">{{ post.category }}</span>
+</div>
+{% endfor %}
+</div>
+</aside>
+
 </div>
 

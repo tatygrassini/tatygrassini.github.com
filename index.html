@@ -5,12 +5,10 @@ title: "Taty Grassini"
 
 <div class="row listing">
 {% for post in paginator.posts %}
-  <div class="col col-lg-6">
-    {{ post.content }}
-    <h4 class="thumb-title">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </h4>
-    <span class="thumb-category">{{ post.category }}</span>
-  </div>
+<div class="col col-lg-6">
+{{ post.content }}
+<h4 class="thumb-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+<span class="thumb-category">{{ post.category }}</span>
+</div>
 {% endfor %}
 </div>
