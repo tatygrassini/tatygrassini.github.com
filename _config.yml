@@ -1,0 +1,12 @@
+# Dependencies
+markdown:     rdiscount
+permalink:    /:title
+pygments:     true
+
+# Settings
+destination:  ./_gh_pages
+paginate:     4
+
+name:         Taty Grassini
+description:  Taty Grassini - Portfolio and Contact info
+url:          http://tatygrassini.github.io/

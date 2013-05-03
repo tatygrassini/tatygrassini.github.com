@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="row show">
+  <div class="col-span-8">
+    <h1>{{ page.title }} <small>{{ page.category }}</small></h1>
+    {{ page.content }}
+  </div>
+  <aside class="col-span-3 col-offset-1 related" role="complementary">
+    <h3>More projects</h3>
+      {% for post in site.related_posts limit:3 %}
+        <div class="thumb">
+          {{ post.content }}
+          <h4 class="thumb-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h4>
+          <span class="thumb-category">{{ post.category }}</span>
+        </div>
+      {% endfor %}
+  </aside>
+</div>
+
