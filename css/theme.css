@@ -15,12 +15,12 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  background: #353535 url(black-Linen.png);
+  background: #353535 url(black-linen.png);
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), 
        only screen and (min-resolution: 144dpi) {
   header {
-    background-image: url(black-Linen@2x.png);
+    background-image: url(black-linen@2x.png);
     -webkit-background-size: 482px 490px;
     background-size: 482px 490px;
   }
