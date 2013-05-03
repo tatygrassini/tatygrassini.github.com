@@ -27,7 +27,7 @@ header a:hover {
 }
 
 .listing {margin: 40px -15px;}
-.listing .col-span-6 {margin-bottom: 30px;}
+.listing .col-lg-6 {margin-bottom: 30px;}
 
 .thumbnail {
   position: relative;
