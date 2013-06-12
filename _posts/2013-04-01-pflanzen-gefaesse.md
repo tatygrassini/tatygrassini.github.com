@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pflanzen &amp; Gefässe"
-category: "PSD to WordPress"
+category: "PSD to WordPress, Responsive"
 tags: [psd2html, psd2wp, responsive]
 ---
 
