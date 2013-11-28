@@ -5,7 +5,7 @@ pygments:     true
 
 # Settings
 destination:  ./_gh_pages
-paginate:     4
+paginate:     6
 
 name:         Taty Grassini
 description:  Taty Grassini - Portfolio and Contact info
