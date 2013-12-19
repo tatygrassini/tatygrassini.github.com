@@ -13,7 +13,7 @@ header a:hover {text-decoration: none;}
 
 .thumb-container {margin-bottom: 30px;}
 .thumb-container p {margin-bottom: 0;}
-.thumbnail {margin: 5px;padding: 0;}
+.thumbnail {padding: 0;}
 .thumbnail img {display: block;border-radius: 4px;box-shadow: 0 1px 3px rgba(0,0,0,.075);}
 .thumb-title {margin: 0;}
 .thumb-category {font-size: 14px;color: #aaa;}
