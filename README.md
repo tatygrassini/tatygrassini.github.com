@@ -1,6 +1,6 @@
 tatygrassini.github.io
 ======================
-My online portfolio. That's all folks!
+My online portfolio. That's all!
 
 Built with:
 -----------
