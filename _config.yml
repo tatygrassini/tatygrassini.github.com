@@ -1,7 +1,7 @@
 # Dependencies
 markdown:     rdiscount
 permalink:    /:title
-pygments:     true
+highlighter:  pygments
 
 # Settings
 destination:  ./_gh_pages
