@@ -3,8 +3,7 @@ layout: post
 title: "Pflanzen &amp; Gefässe"
 category: "PSD to WordPress, Responsive"
 tags: [psd2html, psd2wp, responsive]
+source: http://www.pflanzenundgefaesse.ch/
 ---
 
-<a class="thumbnail" href="http://www.pflanzenundgefaesse.ch/" target="_blank">
-  <img src="/screenshots/pflanzen-gefasse.jpg" alt="{{ post.title }}">
-</a>
+<img src="/screenshots/pflanzen-gefasse.jpg" alt="{{ post.title }}">

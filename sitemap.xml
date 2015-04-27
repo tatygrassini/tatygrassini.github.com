@@ -1,64 +1,29 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://tatygrassini.github.io/</loc>
-  <lastmod>2013-07-30T19:49:34+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://tatygrassini.github.io/pflanzen-gefaesse/</loc>
-  <lastmod>2013-07-30T19:49:34+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://tatygrassini.github.io/adnet/</loc>
-  <lastmod>2013-07-30T19:49:34+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://tatygrassini.github.io/mumsandbums/</loc>
-  <lastmod>2013-07-30T19:49:34+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://tatygrassini.github.io/page2/</loc>
-  <lastmod>2013-07-30T19:49:34+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://tatygrassini.github.io/Rocking_Layout/</loc>
-  <lastmod>2011-10-24T03:57:49+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://tatygrassini.github.io/rocking/</loc>
-  <lastmod>2013-07-30T19:49:34+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://tatygrassini.github.io/Brilliante_Layout/</loc>
-  <lastmod>2012-10-01T16:36:50+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://tatygrassini.github.io/brillante/</loc>
-  <lastmod>2013-07-30T19:49:34+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://tatygrassini.github.io/yourservicelisting/</loc>
-  <lastmod>2013-07-30T19:49:34+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://tatygrassini.github.io/dealorizer/</loc>
-  <lastmod>2013-07-30T19:49:34+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% for page in site.html_pages %}
+  {% if page.title != "Home" %}
+  <url>
+    <loc>{{ site.url }}{{ page.url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {% endif %}
+  {% endfor %}
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
 </urlset>

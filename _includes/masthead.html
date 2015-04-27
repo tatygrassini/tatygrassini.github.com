@@ -1,0 +1,40 @@
+<div class="masthead">
+  <h1 class="masthead-title">
+    <a href="/">{{ site.name }}</a>
+  </h1>
+  <p class="masthead-lead">
+    I&rsquo;m <strong>Taty Grassini</strong>, front-end developer based in Barcelona.
+  </p>
+
+  <hr class="masthead-hr">
+
+  <ul class="masthead-nav">
+    <li class="nav-item">
+      <a class="nav-link{% if page.title == "Home" %} nav-link-active{% endif %}" href="/">Home</a>
+    </li>
+
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <li class="nav-item">
+            <a class="nav-link{% if page.url == node.url %} nav-link-active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <hr class="masthead-hr hidden-xs">
+
+  <ul class="masthead-nav hidden-xs">
+    <li class="nav-item">
+      <a class="nav-link" href="https://twitter.com/tatygrassini" target="_blank">Twitter</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/feed.xml" target="_blank">RSS feed</a>
+    </li>
+  </ul>
+
+  <hr class="masthead-hr">
+</div>

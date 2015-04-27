@@ -1,14 +1,21 @@
 ---
 layout: default
-title: "Taty Grassini"
+title: "Home"
 ---
 
-<div class="row">
 {% for post in paginator.posts %}
-<div class="thumb-container col-sm-6 col-md-4">
-{{ post.content }}
-<h4 class="thumb-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-<span class="thumb-category">{{ post.category }}</span>
-</div>
+  <div class="entry">
+    <a class="entry-thumb" href="{{ post.source }}" title="Visit {{ post.title }}" target="_blank">
+      {{ post.content }}
+      <span class="icon icon-forward entry-icon"></span>
+    </a>
+    <div class="entry-content">
+      <h2 class="entry-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <p class="entry-date">{{ post.category }}</p>
+    </div>
+  </div>
 {% endfor %}
-</div>
+
+{% include pagination.html %}

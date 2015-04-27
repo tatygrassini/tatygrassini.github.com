@@ -1,82 +1,17 @@
-<!--
-      $$$$$$$$\         $$\
-      \__$$  __|        $$ |
-         $$ | $$$$$$\ $$$$$$\   $$\   $$\
-         $$ | \____$$\\_$$  _|  $$ |  $$ |
-         $$ | $$$$$$$ | $$ |    $$ |  $$ |
-         $$ |$$  __$$ | $$ |$$\ $$ |  $$ |
-         $$ |\$$$$$$$ | \$$$$  |\$$$$$$$ |
-         \__| \_______|  \____/  \____$$ |
-                                $$\   $$ |
-                                \$$$$$$  |
-                                 \______/
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 {% include header.html %}
 </head>
-
 <body>
 
-<header role="banner">
-<div class="container text-center">
+{% include masthead.html %}
 
-<h1 class="text-hide avatar">
-<a href="{{ site.url }}" class="img">{{ site.name }}</a>
-</h1>
-
-<div id="contact" class="btn-group btn-large">
-<button class="btn btn-default twitter">
-  <a href="https://twitter.com/tatygrassini" target="_blank" class="contact-tooltip" data-toggle="tooltip" data-placement="bottom" title="@tatygrassini"><span aria-hidden="true" class="icon-twitter"></span></a>
-</button>
-<button class="btn btn-default github">
-  <a href="https://github.com/tatygrassini" target="_blank" class="contact-tooltip" data-toggle="tooltip" data-placement="bottom" title="My Github profile"><span aria-hidden="true" class="icon-github-alt"></span></a>
-</button>
-<button class="btn btn-default email">
-  <a href="mailto:tatygrassini@gmail.com?subject=Cheers from your Github page!" class="contact-tooltip" data-toggle="tooltip" data-placement="bottom" title="My email"><span aria-hidden="true" class="icon-envelope-alt"></span></a>
-</button>
+<div class="listing">
+  {{ content }}
 </div>
 
-</div>
-</header>
+{% include footer.html %}
 
-<div class="content">
-<div class="container">
-{{ content }}
-</div>
-</div>
-
-<div class="pagination">
-<div class="container">
-
-{% if paginator.next_page %}
-<a href="/page{{paginator.next_page}}" class="paginate older">&larr; Older</a>
-{% else %}
-<span class="paginate older">&larr; Older</span>
-{% endif %}
-
-{% if paginator.previous_page %}
-{% if paginator.page == 2 %}
-<a href="/" class="paginate newer">Newer &rarr;</a>
-{% else %}
-<a href="/page{{paginator.previous_page}}" class="paginate newer">Newer &rarr;</a>
-{% endif %}
-{% else %}
-<span class="paginate newer">Newer &rarr;</span>
-{% endif %}
-
-</div>
-</div>
-
-<footer class="credits" role="contentinfo">
-<div class="container">
-<p>Built with love in sunny Barcelona &mdash; Powered by <a href="https://github.com/" target="_blank">Github</a> &amp; <a href="https://github.com/mojombo/jekyll" target="_blank">Jekyll</a>.</p>
-</div>
-</footer>
-
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-<script src="/js/app.js"></script>
 </body>
 </html>

@@ -3,8 +3,7 @@ layout: post
 title: "Sonnenglas Solarlampe"
 category: "Bootstrap coding, Responsive"
 tags: [bootstrap, responsive]
+source: http://sonnenglas.net/
 ---
 
-<a class="thumbnail" href="http://sonnenglas.net/" target="_blank">
-  <img src="/screenshots/sonnenglas.jpg" alt="{{ post.title }}">
-</a>
+<img src="/screenshots/sonnenglas.jpg" alt="{{ post.title }}">

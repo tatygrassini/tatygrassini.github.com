@@ -1,58 +1,29 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Taty Grassini's portfolio, Barcelona-based front-end developer specialized in PSD2HTML and PSD2CMS coding.">
-<meta name="author" content="Taty Grassini, @tatygrassini, tatygrassini[at]gmail[dot]com :)">
-<meta name="apple-mobile-web-app-title" content="Taty">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ site.description }}">
+<meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development, showcase, expo">
+<meta name="author" content="Taty Grassini">
 
-<title>{% if page.title == "Taty Grassini" %}{{ page.title }}{% else if %}{{ page.title }}  &middot; Taty Grassini
-{% endif %}</title>
+<title>
+  {% if page.title == "Home" %}
+    Taty Grassini
+  {% else if %}
+    {{ page.title }} &middot; Taty Grassini
+  {% endif %}
+</title>
 
-<!-- B-S-3, biaaatch!!  -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href='//fonts.googleapis.com/css?family=Lato'>
-<!-- Theme CSS overrides -->
-<link rel="stylesheet" href="/css/theme.css">
-<!-- Custom icon font -->
-<link rel="stylesheet" href="/css/icon-font.css">
+<link href="/css/bootstrap-expo.css" rel="stylesheet">
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
-  <script src="/public/js/html5shiv.js"></script>
-  <script src="/public/js/respond/respond.min.js"></script>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
 <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
 <!-- Favicons -->
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-<link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160" />
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<meta name="msapplication-TileColor" content="#353535" />
-<meta name="msapplication-TileImage" content="/mstile-144x144.png" />
-<meta name="msapplication-wide310x150logo" content="/mstile-310x150.png" />
-<meta name="msapplication-square310x310logo" content="/mstile-310x310.png" />
-<meta name="msapplication-square150x150logo" content="/mstile-150x150.png" />
-<meta name="msapplication-square70x70logo" content="/mstile-70x70.png" />
-
-<!-- Analytics -->
-<script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-624839-21']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">

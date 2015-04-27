@@ -3,8 +3,7 @@ layout: post
 title: "Fitnesstorget"
 category: "Bootstrap, PSD to WordPress, Responsive"
 tags: [bootstrap, psd2html, psd2wp, responsive]
+source: http://fitnesstorget.se/
 ---
 
-<a class="thumbnail" href="http://fitnesstorget.se/" target="_blank">
-  <img src="/screenshots/fitnesstorget.jpg" alt="{{ post.title }}">
-</a>
+<img src="/screenshots/fitnesstorget.jpg" alt="{{ post.title }}">
