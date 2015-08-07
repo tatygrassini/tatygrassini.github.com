@@ -24,8 +24,7 @@ title: About
 
 ## Where to find me
 
-- [oDesk](https://www.odesk.com/users/~013625e9d9e42a75d0)
-- [Elance](https://www.elance.com/s/tatygrassini/)
+- [Upwork](https://www.upwork.com/freelancers/~013625e9d9e42a75d0?)
 - [Freelancer](https://www.freelancer.com/u/tatygrassini.html)
 - [Github](https://github.com/tatygrassini)
 
