@@ -10,30 +10,28 @@ title: About
     </a>
   </div>
   <div class="media-body">
-    I specialize in responsive <abbr title="Photoshop to HTML">PSD2HTML</abbr> and <abbr title="Photoshop to Content Management Systems (like WordPress)">PSD2CMS</abbr>.
+    I specialize in responsive <abbr title="Photoshop to HTML">PSD2HTML</abbr>, <abbr title="Photoshop to Content Management Systems (ya know, like WordPress)">PSD2CMS</abbr>, <em>and</em> <a href="https://www.sketchapp.com/" target="_blank">Sketch</a> designs <a href="http://tympanus.net/codrops/2015/10/17/freebie-land-io-ui-kit-landing-page-template-html/" target="_blank">coding</a>.
   </div>
 </div>
 
 ## Skills
 
 - HTML, CSS, Javascript
-- Photoshop, Sketch, Illustrator
-- WordPress, Jekyll, Leeflets, Drupal, Shopify
+- Sketch, Photoshop, Illustrator
+- WordPress, Jekyll, Shopify, Leeflets, Drupal
 - Git & Github
 - Gulp, Grunt, Bower, Codekit
 
-## Where to find me
+## Open source
 
-- [Upwork](https://www.upwork.com/freelancers/~013625e9d9e42a75d0?)
-- [Freelancer](https://www.freelancer.com/u/tatygrassini.html)
 - [Github](https://github.com/tatygrassini)
 
-## Contact me
+## Contact
 
 [Email me](mailto:tatygrassini@gmail.com?subject=Hey you! [Github portfolio]) or say *Hi* on [Twitter](https://twitter.com/tatygrassini).
 
-## About the site
+## The site
 
-It's built with [Jekyll](http://jekyllrb.com), developed on [GitHub](https://github.com/twbs/bootstrap-expo), and is hosted on [GitHub Pages](https://pages.github.com).
+It's built with [Jekyll](http://jekyllrb.com), developed on [GitHub](https://github.com/twbs/bootstrap-expo) and hosted on [GitHub Pages](https://pages.github.com).
 
 <3
