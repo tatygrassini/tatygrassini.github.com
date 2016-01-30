@@ -280,11 +280,14 @@ h3 {
 .entry-thumb {
   position: relative;
   display: block;
-  background-color: #6b8e23;
+  color: #6b8e23;
+  border-radius: 3px;
 }
 .entry-thumb img {
   display: block;
   width: 100%;
+  border: 1px solid #fff;
+  border-radius: 3px;
   transition: opacity .2s linear;
 }
 .entry-thumb:hover img {
