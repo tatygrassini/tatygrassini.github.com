@@ -1,3 +1,6 @@
+---
+---
+
 /*
  * Entypo, from Fontello
  */
@@ -39,7 +42,7 @@
  */
 
 html {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 body {
@@ -59,14 +62,18 @@ a:focus {
   color: #85a24b;
 }
 
+abbr[title] {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3 {
   font-weight: 300;
 }
 
-.media-body {
-  vertical-align: middle;
+strong {
+  font-weight: 700;
 }
 
 
@@ -88,7 +95,7 @@ h3 {
 .masthead-title {
   margin-top: 0;
   margin-bottom: .75rem;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 1;
 }
 .masthead-title a {
@@ -280,14 +287,11 @@ h3 {
 .entry-thumb {
   position: relative;
   display: block;
-  color: #6b8e23;
-  border-radius: 3px;
+  background-color: #6b8e23;
 }
 .entry-thumb img {
   display: block;
   width: 100%;
-  border: 1px solid #fff;
-  border-radius: 3px;
   transition: opacity .2s linear;
 }
 .entry-thumb:hover img {
