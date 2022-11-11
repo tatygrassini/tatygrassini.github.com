@@ -25,7 +25,6 @@ future:           false
 name:             Portfolio
 domain:           tatygrassini.github.io
 url:              http://tatygrassini.github.io
-baseurl:          /REPOSITORY-NAME/
 description:      Taty Grassini's portfolio, Barcelona-based front-end developer specialized in PSD2HTML and PSD2CMS coding.
 
 
