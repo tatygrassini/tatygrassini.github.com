@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:4000/</loc>
+    <lastmod>2022-12-16T22:11:17+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://localhost:4000/404.html</loc>
+    <lastmod>2022-12-16T22:11:17+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/about/</loc>
+    <lastmod>2022-12-16T22:11:17+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/archive/</loc>
+    <lastmod>2022-12-16T22:11:17+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/post/landio/</loc>
+    <lastmod>2015-10-18T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/post/swiwi/</loc>
+    <lastmod>2014-04-10T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/post/pflanzen-gefaesse/</loc>
+    <lastmod>2013-11-20T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/post/proxy/</loc>
+    <lastmod>2013-09-09T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/post/sonnenglas/</loc>
+    <lastmod>2013-04-01T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/post/versus/</loc>
+    <lastmod>2013-03-04T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/post/hubesha/</loc>
+    <lastmod>2013-03-04T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>

@@ -4,7 +4,7 @@ title: About
 ---
 
 <div class="media mb-4">
-  <img class="rounded-circle align-self-center mr-3" src="http://www.gravatar.com/avatar/61b1977a1539327af9666de1496c5f74.png" alt="{{ site.name }}">
+  <img width="80" height="80" class="rounded-circle align-self-center mr-3" src="http://www.gravatar.com/avatar/61b1977a1539327af9666de1496c5f74.png" alt="{{ site.name }}">
   <div class="media-body align-self-center">
     Specialized in front-end technologies, <abbr title="Content Management Systems (ya know, like WordPress)">CMS</abbr>’s, and <abbr title="Responsive Web Design">RWD</abbr>.
   </div>
