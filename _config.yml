@@ -1,0 +1,33 @@
+# Dependencies
+highlighter:      false
+
+
+# Permalinks
+permalink:        /post/:title/
+
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+sass:
+    style:        compressed
+
+# Settings
+destination:      ./_gh_pages
+exclude:          ["README.md"]
+paginate:         5
+encoding:         UTF-8
+future:           false
+name:             Portfolio
+domain:           tatygrassini.github.io
+url:              http://tatygrassini.github.io
+description:      Taty Grassini's portfolio, Barcelona-based front-end developer specialized in PSD2HTML and PSD2CMS coding.
+
+
+# Links
+expo_repo:        https://github.com/tatygrassini/tatygrassini.github.com/
+expo_new_issue:   https://github.com/tatygrassini/tatygrassini.github.com/issues/new
