@@ -18,7 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
 title: Taty Grassini's portfolio
 email: tatygrassini@gmail.com
 description: Taty Grassini's portfolio, Barcelona-based front-end developer specialized in PSD2HTML and PSD2CMS coding.
@@ -30,15 +29,12 @@ github_username:  jekyll
 paginate:         5
 encoding:         UTF-8
 
-
 # Links
 expo_repo:        https://github.com/tatygrassini/tatygrassini.github.com/
 expo_new_issue:   https://github.com/tatygrassini/tatygrassini.github.com/issues/new
 
-
 # Permalinks
 permalink:        /post/:title/
-
 
 # Build settings
 theme: minima
@@ -48,10 +44,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
-
 sass:
     style:        compressed
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
