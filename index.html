@@ -1,12 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test</title>
-</head>
-<body>
-  <h1>Test</h1>
-</body>
-</html>
+---
+layout: default
+title: "Home"
+---
+
+{% for post in paginator.posts %}
+  <div class="entry">
+    <a class="entry-thumb" href="{{ post.source }}" title="Visit {{ post.title }}" target="_blank" rel="noopener noreferrer">
+      {{ post.content }}
+      <span class="icon icon-forward entry-icon"></span>
+    </a>
+    <div class="entry-content">
+      <h2 class="entry-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <p class="entry-date">{{ post.category }}</p>
+    </div>
+  </div>
+{% endfor %}
+
+{% include pagination.html %}
+
